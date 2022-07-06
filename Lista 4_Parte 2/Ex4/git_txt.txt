@@ -1,0 +1,19 @@
+git init //inicia o git no repositório
+git add // adiciona o arquivo informado no repositório( . para adicionar todos)
+git commit -m "mensagem" // commita os arquivos adicionados
+git branch -M main
+git status // verifica o status do git
+git remote add origin <url do repositório no github> // define o local do repositório
+git push --set-upstream origin <nome da branch> // envia os arquivos para o repositório no github
+git reflog // mostra as versões de código adicionadas até o momento
+git reset --hard <id da versao> //volta pra versão do projeto
+git branch <nome da branch> // cria uma nova branch
+gi checkout <nome da branch> // muda de branch
+git merge <nome da branch> // une a branch digitada com a branch que você está.
+git pull // atualiza a sua versão do projeto
+touch .gitignore // cria um arquivo gitignore
+git diff <nome do arquivo> //mostra as diferenças feitas em um arquivo
+git checkout <codigo do commit> // volta para o commit (se colocar "main" no lugar do código volta para o head do projeto)
+git reset // tira os arquivos da área de stage
+git clean -df // volta para o estado inicial do último commit
+git checkout -- . //Limpa as modificações
